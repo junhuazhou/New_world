@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+
+}
+button {
+    cursor: pointer;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    background-position: center;
+    width: 1280px;
+    height: 80px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#toplogo{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+}
+#logoword{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+}
+#nevigation{
+    width: 100%;
+    display: inline-block;
+    line-height: 80px;
+    text-align: right;
+}
+#nevigation ul{
+    list-style: none;
+}
+#nevigation ul li {
+    display: inline-block;
+    position: relative;
+}
+#nevigation ul li a{
+     display: block;
+}
+#nevigation ul li ul li{
+    float: none;
+    display: block;
+    line-height: 30px;
+
+}
+#nevigaton ul li ul li a{
+
+}
+#nevigation ul li ul{
+    display:block;
+    float: none;
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    width: 120px;
+    display: none;
+}
+#nevigation ul li:hover ul{
+    display: block;
+}
+#nevigation ul li:hover a{
+    color: red;
+}
+#nevigation ul li:hover ul li a{
+    color: black;
+}
+#nevigation ul li:hover ul li:hover a{
+    color: aqua;
+}
+
+
+
+
+
+.newlife{
+   background: url("images/1-7-banner.png") no-repeat center;
+    width: 100%;
+    height:690px;
+    font-family: sans-serif;
+    color: azure;
+}
+.newlife h1{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-size: 70px;
+}
+.newlife p{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.first_btn{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+    background-color: maroon;
+    font-size: 35px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+body a:hover{
+
+}
+
+
+.list{
+
+    margin:20px 0px 0 0px;
+    overflow: hidden;
+    height: 200px;
+}
+
+section.list ul li{
+    float: left;
+    width: 25%;
+    height: 160px;
+    list-style:none
+}
+.item img {
+    display: block;
+    margin: 0 auto 40px;
+}
+.item p {
+    margin: 0 auto;
+    width: 50%;
+    height: 55px;
+    font-size: 1rem;
+    text-align: center;
+    color: #aba6a5;
+    border-right: 2px solid #aba6a5;
+    padding: 0 25%;
+}
+.item:last-child p {
+    border: 0;
+}
+.newworld{
+    text-align: center;
+    height: 250px;
+    background:gainsboro;
+    font-size: 40px;
+    padding-top: 100px;
+    color: gray;
+}
+.look_for{
+    background-image: url("images/1-7-map.png") ;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 288px;
+    padding-top: 70px;
+    line-height: 60px;
+}
+.look_for h3{
+    font-size: 45px;
+    color:white;
+}
+.get_news{
+    height: 30px;
+    width: 200px;
+    margin-right: 20px;
+}
+.search_btn{
+    background-color: maroon;
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.activities{
+    background-color:whitesmoke;
+    margin-top: 0;
+    height: 500px;
+}
+.city_activies{
+    display: inline-block;
+    padding-top: 40px;
+}
+.one_forth{
+    display: inline;
+    width:320px;
+    text-align: center;
+    float: left;
+}
+
+.new_time{
+}
+.two_side{
+    display: inline-block;
+    height: 563px;
+}
+.two_third{
+    background-image: url("images/1-7-world1.png");
+    width:854px;
+    text-align: center;
+    height:563px;
+    color: white;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    float: left;
+}
+.one_third{
+    padding: 120px 50px 0px 900px;
+    background-color:white;
+    height: 443px;
+}
+.one_third h2{
+    line-height: 70px;
+    text-align: center;
+}
+.one_third p{
+    line-height: 40px;
+}
+.three_side{
+    display: inline-block;
+}
+.one_third1{
+    background-color:brown;
+    text-align: center;
+    width: 420px;
+    height: 340px;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 40px;
+    float: left;
+}
+.btn_1{
+    width: 240px;
+    height: 40px;
+    font-size: 27px;
+    background-color: brown;
+    cursor: pointer;
+}
+.one_third2{
+    background-color:white;
+    text-align: center;
+    width: 430px;
+    height: 340px;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    font-size: 30px;
+    color:black;
+    line-height: 40px;
+    float: left;
+}
+.btn_2{
+    width: 240px;
+    height: 40px;
+    font-size: 27px;
+    background-color: white;
+    border: 1px maroon solid;
+    cursor: pointer;
+}
+.one_third3{
+    float: left;
+}
+
+.application{
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form_two{
+    display: inline-block;
+}
+.left_side{
+    float: left;
+    width: 350px;
+    line-height: 30px;
+    margin-left: 76px;
+}
+.right_side{
+    float: left;
+    width: 700px;
+    margin-left: 154px;
+}
+.right_side form{
+        font-size: 20px;
+    line-height: 60px;
+}
+.name1, .name2, .name3 ,.name4,.name5,.name6{
+    border: none;
+    margin-right: 30px;
+    background-color:gainsboro;
+}
+.name1{
+    width: 300px;
+}
+.name2{
+    width: 300px;
+}
+.name3{
+    width: 300px;
+}
+.name4{
+    width: 300px;
+}
+.name5{
+    width: 687px;
+}
+.name6{
+    width: 650px;
+    cursor: pointer;
+}
+span.back_color{
+    background-color:gainsboro;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.way_contact{
+    text-align: center;
+    color: aliceblue;
+    background-color:#272727;
+    height: 300px;
+    padding-top: 100px;
+    line-height: 40px;
+}
+.email1,.email2{
+    height: 40px;
+    border:none;
+}
+.email1{
+    width: 450px;
+}
+.email2{
+    width: 70px;
+    font-size: 15px;
+    background-color: darkgray;
+    height: 42px;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+.email_background{
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.connection_logo img{
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer_1{
+    float: left;
+}
+.footer_2{
+    float: right;
+    color: white;
+}
